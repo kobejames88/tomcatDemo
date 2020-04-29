@@ -1,0 +1,110 @@
+09-Oct-2019 17:18:34.443 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.42
+09-Oct-2019 17:18:34.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:29:04 UTC
+09-Oct-2019 17:18:34.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.42.0
+09-Oct-2019 17:18:34.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Oct-2019 17:18:34.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2019 17:18:34.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2019 17:18:34.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\jdk-12.0.2
+09-Oct-2019 17:18:34.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.2+10
+09-Oct-2019 17:18:34.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2019 17:18:34.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.42
+09-Oct-2019 17:18:34.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.42
+09-Oct-2019 17:18:34.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2019 17:18:34.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2019 17:18:34.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2019 17:18:34.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.42\conf\logging.properties
+09-Oct-2019 17:18:34.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2019 17:18:34.475 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Oct-2019 17:18:34.476 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Oct-2019 17:18:34.476 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Oct-2019 17:18:34.477 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.42
+09-Oct-2019 17:18:34.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.42
+09-Oct-2019 17:18:34.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.42\temp
+09-Oct-2019 17:18:34.481 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+09-Oct-2019 17:18:34.482 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Oct-2019 17:18:34.487 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Oct-2019 17:18:34.494 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+09-Oct-2019 17:18:34.548 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 17:18:35.159 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Oct-2019 17:18:35.187 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 17:18:35.191 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Oct-2019 17:18:35.193 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1170 ms
+09-Oct-2019 17:18:35.239 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2019 17:18:35.240 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.42
+09-Oct-2019 17:18:35.258 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\docs]
+09-Oct-2019 17:18:36.099 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [545] milliseconds.
+09-Oct-2019 17:18:36.128 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\docs] has finished in [870] ms
+09-Oct-2019 17:18:36.129 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\examples]
+09-Oct-2019 17:18:37.031 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\examples] has finished in [902] ms
+09-Oct-2019 17:18:37.032 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\host-manager]
+09-Oct-2019 17:18:37.086 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\host-manager] has finished in [54] ms
+09-Oct-2019 17:18:37.086 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\manager]
+09-Oct-2019 17:18:37.129 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\manager] has finished in [43] ms
+09-Oct-2019 17:18:37.129 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\ROOT]
+09-Oct-2019 17:18:37.191 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\ROOT] has finished in [61] ms
+09-Oct-2019 17:18:37.202 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 17:18:37.223 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 17:18:37.228 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2034 ms
+09-Oct-2019 17:18:46.866 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [1569996607] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+09-Oct-2019 17:19:07.544 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 17:19:08.498 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 17:19:09.236 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2019 17:19:09.505 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 17:19:09.516 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 17:19:09.530 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 17:19:09.536 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 20:07:24.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.42
+09-Oct-2019 20:07:24.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 4 2019 20:29:04 UTC
+09-Oct-2019 20:07:24.286 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.42.0
+09-Oct-2019 20:07:24.286 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Oct-2019 20:07:24.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2019 20:07:24.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2019 20:07:24.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\jdk-12.0.2
+09-Oct-2019 20:07:24.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.2+10
+09-Oct-2019 20:07:24.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2019 20:07:24.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-8.5.42
+09-Oct-2019 20:07:24.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-8.5.42
+09-Oct-2019 20:07:24.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2019 20:07:24.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2019 20:07:24.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2019 20:07:24.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\apache-tomcat-8.5.42\conf\logging.properties
+09-Oct-2019 20:07:24.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2019 20:07:24.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Oct-2019 20:07:24.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Oct-2019 20:07:24.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Oct-2019 20:07:24.295 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\apache-tomcat-8.5.42
+09-Oct-2019 20:07:24.300 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-8.5.42
+09-Oct-2019 20:07:24.303 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\apache-tomcat-8.5.42\temp
+09-Oct-2019 20:07:24.304 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+09-Oct-2019 20:07:24.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Oct-2019 20:07:24.306 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Oct-2019 20:07:24.313 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+09-Oct-2019 20:07:24.381 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 20:07:24.940 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Oct-2019 20:07:24.965 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 20:07:24.970 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Oct-2019 20:07:24.972 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1203 ms
+09-Oct-2019 20:07:25.018 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2019 20:07:25.019 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.42
+09-Oct-2019 20:07:25.244 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\docs]
+09-Oct-2019 20:07:25.999 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [465] milliseconds.
+09-Oct-2019 20:07:26.024 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\docs] has finished in [780] ms
+09-Oct-2019 20:07:26.024 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\examples]
+09-Oct-2019 20:07:26.506 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\examples] has finished in [482] ms
+09-Oct-2019 20:07:26.507 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\host-manager]
+09-Oct-2019 20:07:26.561 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\host-manager] has finished in [55] ms
+09-Oct-2019 20:07:26.562 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\manager]
+09-Oct-2019 20:07:26.652 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\manager] has finished in [90] ms
+09-Oct-2019 20:07:26.659 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\apache-tomcat-8.5.42\webapps\ROOT]
+09-Oct-2019 20:07:26.793 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\apache-tomcat-8.5.42\webapps\ROOT] has finished in [134] ms
+09-Oct-2019 20:07:26.808 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 20:07:26.835 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 20:07:26.848 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1875 ms
+09-Oct-2019 20:07:49.202 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [1569996607] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+09-Oct-2019 21:22:21.438 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 21:22:23.592 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 21:22:25.072 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2019 21:22:25.281 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 21:22:25.288 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-Oct-2019 21:22:25.294 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2019 21:22:25.295 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
